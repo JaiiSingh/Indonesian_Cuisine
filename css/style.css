@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(4, 107, 4);
+    position: relative;
+    height: 20px;
+}
