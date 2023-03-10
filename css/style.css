@@ -1,9 +1,46 @@
-*{
-    margin: 0;
+.bg-green{
+    background-color:  rgb(83, 117, 67);
+}
+.search{
+    width: 65%;
+    height: auto;
+}
+.search-icon{
+    margin-left: 3rem;
 }
 
-.header{
-    background-color: rgb(4, 107, 4);
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color:#CDE990 ;
+}
+.name{
     position: relative;
-    height: 20px;
+    text-align: center;
+    padding-top: 70px;
+}
+.name h1,h2{
+    font-family: 'Berkshire Swash', cursive;
+    line-height: 38px;    
+    color: white;
+}
+.name h1{
+    font-size: 6em;
+}
+.name h2{
+    font-size: 2.5em;
+}
+
+@media screen and (max-width:767px) {
+    .search{
+       width: 4%;
+    }
+    .search-icon{
+        margin-left: 0;
+    }
 }
