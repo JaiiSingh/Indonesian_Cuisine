@@ -10,7 +10,7 @@
 }
 
 .logo{
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 .nav-link{
@@ -30,11 +30,42 @@
 }
 .name h1{
     font-size: 6em;
-    
+    margin-bottom: 60px;
 }
 .name h2{
     font-size: 2.5em;
 }
+.btn{
+    color: rgb(62, 88, 49);
+    padding:5px 30px ;
+    margin-bottom: 50px;
+}
+.restro-intro p{
+     font-size: 20px;
+     line-height: 30px;
+     color: white;
+     padding-bottom: 50px;
+}
+.helo:hover{
+    color: blue;
+    font-size: 2em;
+}
+.inline{
+    display: inline-block;
+}
+.pos-rel{
+    position: relative;
+}
+.group-dish{
+    position: absolute;
+    top: 0px;
+    width: 20%;
+    height: auto;
+}
+
+
+
+
 
 @media screen and (max-width:767px) {
     .search{
@@ -42,5 +73,20 @@
     }
     .search-icon{
         margin-left: 0;
+    }
+    .name h1{
+        font-size:3em ;
+    }
+    .name h2{
+        font-size: 1.25em;
+    }
+    .name h1,h2{
+        line-height: 19px;
+    }
+    .inline{
+        display: block;
+    }
+    .group-dish{
+        position:static;
     }
 }
