@@ -19,48 +19,47 @@
 .nav-link:hover{
     color:#CDE990 ;
 }
-.name{
+
+/* 
+
+Home Section
+
+*/
+#Home{
+    background-image:  linear-gradient(47deg,#427050,#b7cd85);
+  
     text-align: center;
-    padding-top: 70px;
 }
-.name h1,h2{
+.bg-vector{
+    background:url(image/vector.png);
+    background-size: 300px 300px ;
+}
+
+.tittle-name{
     font-family: 'Berkshire Swash', cursive;
-    line-height: 38px;    
+    font-size: 5.7rem;
+    line-height: 43px;
+    margin-top: 15%;
     color: white;
+    
 }
-.name h1{
-    font-size: 6em;
-    margin-bottom: 60px;
+.tittle-name::first-line{
+    font-size: 2.5rem;
 }
-.name h2{
-    font-size: 2.5em;
+.tittle-dish{
+    max-width: 90%;
 }
 .btn{
     color: rgb(62, 88, 49);
     padding:5px 30px ;
     margin-bottom: 50px;
 }
-.restro-intro p{
-     font-size: 20px;
-     line-height: 30px;
-     color: white;
-     padding-bottom: 50px;
-}
-.helo:hover{
-    color: blue;
-    font-size: 2em;
-}
+
 .inline{
     display: inline-block;
 }
 .pos-rel{
     position: relative;
-}
-.group-dish{
-    position: absolute;
-    top: 0px;
-    width: 20%;
-    height: auto;
 }
 
 
@@ -74,19 +73,24 @@
     .search-icon{
         margin-left: 0;
     }
-    .name h1{
-        font-size:3em ;
+
+    .tittle-name{
+        font-size:2.4rem ;
+        line-height: 24px;
+        margin-bottom: 30px;
     }
-    .name h2{
-        font-size: 1.25em;
+    .tittle-name::first-line{
+        font-size:.8rem ;
     }
-    .name h1,h2{
-        line-height: 19px;
+   
+}
+
+@media screen and (max-width:991px){
+    .tittle-name{
+        font-size:2.8rem ;
+        line-height: 24px;
     }
-    .inline{
-        display: block;
-    }
-    .group-dish{
-        position:static;
+    .tittle-name::first-line{
+        font-size:1.25rem ;
     }
 }
