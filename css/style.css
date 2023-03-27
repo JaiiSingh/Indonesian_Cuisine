@@ -78,6 +78,10 @@ Home Section
 /* About section */
 #about{
     text-align: center;
+    background-image: linear-gradient(62deg,#1f3c28,#88a34a);
+}
+.about-row{
+    padding-top: 10%;
 }
 .about-food{
     display: flex;
