@@ -151,6 +151,9 @@ Home Section
    .about-row div{
     margin-top: 0% !important;
    }
+   .about-div{
+    padding-left: 0%;
+   }
    .img-div{
     display: none;
    }
