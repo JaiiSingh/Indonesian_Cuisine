@@ -82,8 +82,12 @@ Home Section
 }
 .about-row{
     padding-top: 10%;
+    margin: 0%;
 }
-
+.about-div{
+   padding-right: 0%;
+   padding-left: 2%;
+}
 .about-food{
     display: flex;
     align-items: center;
@@ -104,15 +108,18 @@ Home Section
 .about-food h1{
     font-family: 'Berkshire Swash', cursive;
     font-size: 2rem;
+    color: rgb(62, 88, 49);
 }
 .about-food h4{
     font-family: 'Farsan', cursive;
     font-size: 1.2rem;
+    color: rgb(62, 88, 49);
 }
 .about-food p{
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-size: 1.2em;
     letter-spacing: 50%;
+    color: rgb(62, 88, 49);
 } 
 
 @media screen and (max-width:768px) {
