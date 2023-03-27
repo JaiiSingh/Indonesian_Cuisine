@@ -26,8 +26,7 @@ Home Section
 
 */
 #Home{
-    background-image:  linear-gradient(47deg,#427050,#b7cd85);
-  
+    background-image: linear-gradient(47deg,#1a3b24,#aacf57);
     text-align: center;
 }
 .bg-vector{
@@ -35,7 +34,7 @@ Home Section
     background-size: 300px 300px ;
 }
 
-.tittle-name{
+.title-name{
     font-family: 'Berkshire Swash', cursive;
     font-size: 5.7rem;
     line-height: 43px;
@@ -43,18 +42,32 @@ Home Section
     color: white;
     
 }
-.tittle-name::first-line{
+.title-name::first-line{
     font-size: 2.5rem;
 }
-.tittle-dish{
+.title-div p{
+    color: white;
+    letter-spacing: 1px;
+    text-align: left;
+    opacity: 50%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin: 7% auto 4% auto;
+    width: 70%;
+    
+}
+.title-dish{
     max-width: 90%;
 }
 .btn{
     color: rgb(62, 88, 49);
-    padding:5px 30px ;
+    padding:.8% 4% ;
     margin-bottom: 50px;
+    border-radius:1em;
+    font-weight: 700;
 }
-
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
 .inline{
     display: inline-block;
 }
@@ -62,11 +75,42 @@ Home Section
     position: relative;
 }
 
+/* About section */
+#about{
+    text-align: center;
+}
+.about-food{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 3% 7% 0% 36%;
+    height: 70%;
+}
+.about-img{
+    position: relative;
+    left: 0%;
+    bottom: 6%;
+    width: 200%;
+}
 
 
 
 
-@media screen and (max-width:767px) {
+.about-food h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+}
+.about-food h4{
+    font-family: 'Farsan', cursive;
+    font-size: 1.2rem;
+}
+.about-food p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.2em;
+    letter-spacing: 50%;
+} 
+
+@media screen and (max-width:768px) {
     .search{
        width: 4%;
     }
@@ -74,23 +118,69 @@ Home Section
         margin-left: 0;
     }
 
-    .tittle-name{
-        font-size:2.4rem ;
+    .title-name{
+        font-size:2.7rem ;
         line-height: 24px;
         margin-bottom: 30px;
     }
-    .tittle-name::first-line{
-        font-size:.8rem ;
+    .title-name::first-line{
+        font-size:.8.2rem ;
     }
    
+    .title-dish{
+        width: 70%;
+    }
+
+   /* about section */
+
+   .about-img{
+    width: 50%;
+   }
+
+   .about-food h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.1rem;
+}
+.about-food h4{
+    font-family: 'Farsan', cursive;
+    font-size: .8rem;
+}
+.about-food p{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: .4rem;
+    letter-spacing: 50%;
+} 
+ .about-food div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+ }
+  .about-food{
+    padding: 10% 0% 0% 0%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width:991px){
-    .tittle-name{
+    .title-name{
         font-size:2.8rem ;
         line-height: 24px;
     }
-    .tittle-name::first-line{
+    .title-name::first-line{
         font-size:1.25rem ;
     }
+  /* About section */
+    .about-food h1{
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 1.6rem;
+    }
+    .about-food h4{
+        font-family: 'Farsan', cursive;
+        font-size: 1rem;
+    }
+    .about-food p{
+        font-family: 'Edu NSW ACT Foundation', cursive;
+        font-size: .8rem;
+        letter-spacing: 50%;
+    } 
 }
