@@ -184,7 +184,50 @@ text-align: center;
 }
 
 
+/* About Restaurant */
+#About-Restaurant{
+    background: linear-gradient(17deg,#e67e18,#f7aa3e);
+    text-align: center;
+}
+.cooking-img{
+    max-width: 80%;
+}
 
+.delicious-food{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
+}
+/* .delicious-food h3{
+    font-family: 'Poppins', sans-serif;
+
+}
+.delicious-food p{
+    font-family: 'Poppins', sans-serif;
+
+} */
+.delicious-food button{
+    padding: 1% 7%;
+}
+
+/* Testimonials */
+
+#Testimonials{
+    background-color:#2B580C;
+    text-align: center;
+}
+.testimonial-header h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 6rem;
+}
+#Testimonials h5{
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 2% auto 1% auto;
+}
+#Testimonials h5:nth-child(2n){
+    margin-bottom: 5%;
+}
 
 
 
@@ -280,6 +323,15 @@ text-align: center;
     display: none;
 }
 
+.cooking-img{
+    width: 50%;
+}
+.delicious-food{
+    text-align: center;
+    width:70%;
+    margin: 0 auto;
+}
+
 
 
 }
@@ -321,6 +373,17 @@ text-align: center;
     }
     .chef-card h6{
         font-size: .7rem;
+    }
+
+
+    /* About-Restaurant */
+
+    .delicious-food h3{
+        padding-top: 0% !important;
+        font-size: 1.1rem;
+      }
+    .delicious-food p{
+        font-size: .8rem;
     }
 
 }
