@@ -191,6 +191,7 @@ text-align: center;
 }
 .cooking-img{
     max-width: 80%;
+    box-shadow: -2px 2px   black,-2px 2px 15px  black;
 }
 
 .delicious-food{
@@ -198,14 +199,7 @@ text-align: center;
     font-family: 'Poppins', sans-serif;
 
 }
-/* .delicious-food h3{
-    font-family: 'Poppins', sans-serif;
 
-}
-.delicious-food p{
-    font-family: 'Poppins', sans-serif;
-
-} */
 .delicious-food button{
     padding: 1% 7%;
 }
@@ -213,7 +207,8 @@ text-align: center;
 /* Testimonials */
 
 #Testimonials{
-    background-color:#2B580C;
+    
+    background-color: #264a0dbf;
     text-align: center;
 }
 .testimonial-header h2{
@@ -228,6 +223,20 @@ text-align: center;
 #Testimonials h5:nth-child(2n){
     margin-bottom: 5%;
 }
+
+.carousel-indicators [data-bs-target] {
+   border-radius: 100%;
+   width: 8px;
+   height: 8px;
+  }
+
+
+
+
+
+
+
+
 
 
 
@@ -303,6 +312,7 @@ text-align: center;
     margin: 2% auto;
 }
 #services p{
+    font-size: .8rem;
     width: 50%;
     margin: 2% auto;
 }
@@ -322,14 +332,36 @@ text-align: center;
 .chef-container{
     display: none;
 }
+.chef-note{
+    font-size: .6rem;
+    width: 75%;
+    margin: 0 auto;
+}
 
+/* About-Restaurant */
 .cooking-img{
+   padding-top: 0% !important;
+   margin-top: 0% !important;
     width: 50%;
 }
 .delicious-food{
     text-align: center;
     width:70%;
     margin: 0 auto;
+}
+.delicious-food h3{
+    font-size: 1rem !important;
+}
+.delicious-food p{
+    font-size: .7rem !important;
+}
+
+/* Testimonials */
+.testimonial-header h2{
+    font-size: 3rem ;
+}
+.testimonial-cmnt h5{
+    font-size: .8rem !important;
 }
 
 
